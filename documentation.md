@@ -38,9 +38,11 @@ By analyzing Recall Rate, researchers and engineers can quantify how long users 
 
 $$
 \text{RecallRate}_{u,w} =
-\frac{\text{# of words correctly recalled on first attempt}}
-     {\text{# of words attempted for the first time}}
+\frac{\text{number of words correctly recalled on first attempt}}
+     {\text{number of words attempted for the first time}}
 $$
+
+where:
 
 - \(u\) = user ID
 - \(w\) = word (lexeme)
